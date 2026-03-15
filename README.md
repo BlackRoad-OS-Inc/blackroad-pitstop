@@ -1,171 +1,41 @@
-# 🔐 BlackRoad Pitstop
+<div align="center">
 
-**Secure Authentication Portal for BlackRoad OS Systems**
+<img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
 
-**Live:** https://pitstop.blackroad.io (pending setup)
+# blackroad-pitstop
 
----
+**BlackRoad Pitstop — Service portal and navigation hub. Quick access to all BlackRoad OS services, fleet status, and deployment dashboard. Cloudflare Pages.**
 
-## 🎯 What is Pitstop?
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad_OS-Pave_Tomorrow-FF2255?style=for-the-badge&labelColor=000000)](https://blackroad.io)
+[![License](https://img.shields.io/badge/License-Proprietary-FF6B2B?style=for-the-badge&labelColor=000000)](./LICENSE)
+[![Edge AI](https://img.shields.io/badge/Edge_AI-52_TOPS-00D4FF?style=for-the-badge&labelColor=000000)](https://github.com/BlackRoad-OS-Inc)
 
-Pitstop is the **secure gateway** to all BlackRoad OS metaverse files and systems. It provides:
+</div>
 
-- 🔐 **Authentication** - Login required to access any files
-- 📁 **File Management** - Browse and access all metaverse files
-- 🌌 **System Access** - Launch universe, view code, read docs
-- 👤 **Session Management** - Secure 24-hour sessions
-- 🎨 **Beautiful UI** - Modern glass morphism design
-
----
-
-## 🚀 Features
-
-### Authentication System
-- Username/password login
-- Session management (24-hour expiry)
-- Secure logout
-- Auto-redirect on session expiry
-
-### Dashboard
-- **File Grid** - Visual cards for all metaverse files
-- **Stats Overview** - Total files, systems, code lines, deployments
-- **Quick Access** - One-click to open any file
-- **Live Badges** - Shows file status (LIVE, SYSTEM, DOCS, etc.)
-
-### Security
-- Client-side session storage
-- No backend required (static hosting)
-- Protected file access
-- Automatic session validation
+<div align="center">
+<sub>Part of the <a href="https://blackroad.io">BlackRoad OS</a> ecosystem — sovereign edge AI infrastructure</sub>
+</div>
 
 ---
 
-## 🔑 Default Credentials
+## Overview
 
-For demo/testing purposes:
+BlackRoad Pitstop — Service portal and navigation hub. Quick access to all BlackRoad OS services, fleet status, and deployment dashboard. Cloudflare Pages.
 
-```
-Username: alexa
-Password: blackroad2025
+## License
 
-Username: admin
-Password: blackroad2025
-```
+**Proprietary** — Copyright © 2024–2026 [BlackRoad OS, Inc.](https://blackroad.io) All rights reserved.
 
-**⚠️ IMPORTANT:** Change these credentials in `index.html` before production deployment!
+Founder & CEO: **Alexa Louise Amundson** · Delaware C-Corp
+
+See [LICENSE](./LICENSE) for full terms.
 
 ---
 
-## 📁 File Structure
+<div align="center">
 
-```
-blackroad-pitstop/
-├── index.html           # Login page with authentication
-├── dashboard.html       # File dashboard (protected)
-├── wrangler.toml        # Cloudflare Pages config
-├── package.json         # Project metadata
-├── README.md            # This file
-└── .gitignore           # Git ignore rules
-```
+**BlackRoad OS — Pave Tomorrow.**
 
----
+[blackroad.io](https://blackroad.io) · [GitHub](https://github.com/BlackRoad-OS-Inc) · [Brand](https://brand.blackroad.io)
 
-## 🛠️ Setup & Deployment
-
-### Deploy to Cloudflare Pages
-
-```bash
-cd /Users/alexa/blackroad-pitstop
-wrangler pages deploy . --project-name=blackroad-pitstop
-```
-
-### Custom Domain Setup
-
-1. Go to Cloudflare Dashboard → Pages → blackroad-pitstop
-2. Click "Custom domains" → "Set up a custom domain"
-3. Enter: `pitstop.blackroad.io`
-4. DNS auto-configured by Cloudflare
-
----
-
-## 🔐 Security Configuration
-
-### Changing Login Credentials
-
-Edit `index.html` around line 250:
-
-```javascript
-const VALID_CREDENTIALS = {
-    'yourusername': 'yourpassword',
-    'admin': 'strongpassword123'
-};
-```
-
-### Session Duration
-
-Edit `index.html` around line 257:
-
-```javascript
-const SESSION_DURATION = 24 * 60 * 60 * 1000; // 24 hours
-```
-
----
-
-## 🌐 Integration with Metaverse
-
-All BlackRoad OS systems accessible through authenticated dashboard:
-
-- universe.blackroad.io - Complete metaverse
-- earth.blackroad.io - Earth simulation
-- app.blackroad.io - Main application
-- api.blackroad.io - Backend API
-
----
-
-## 📊 Statistics
-
-- **Total Files:** 32
-- **Systems:** 18
-- **Code Lines:** 14K+
-- **Deployments:** 3
-
----
-
-## 📞 Support
-
-**BlackRoad OS, Inc.**
-- Email: blackroad.systems@gmail.com
-- Primary: blackroad@gmail.com
-
----
-
-## 📜 License
-
-© 2025 BlackRoad OS, Inc. All rights reserved.
-
----
-
-**Built with 💚 by BlackRoad OS, Inc.**
-
-**December 22, 2025**
-
-🔐 **SECURE ACCESS TO THE METAVERSE** 🔐
-
----
-
-## 📜 License & Copyright
-
-**Copyright © 2026 BlackRoad OS, Inc. All Rights Reserved.**
-
-**CEO:** Alexa Amundson | **PROPRIETARY AND CONFIDENTIAL**
-
-This software is NOT for commercial resale. Testing purposes only.
-
-### 🏢 Enterprise Scale:
-- 30,000 AI Agents
-- 30,000 Human Employees
-- CEO: Alexa Amundson
-
-**Contact:** blackroad.systems@gmail.com
-
-See [LICENSE](LICENSE) for complete terms.
+</div>
